@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EDEDED;
+}
+
+.produto{
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.produto-slide {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.produto-img {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.slides {
+    width: 600px;
+    height: 600px;
+    object-fit: scale-down;
+}
+
+.w3-center {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.w3-button {
+    font-size: 17px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid #599AFB 1px;
+    margin: 2px;
+    padding: 4px 10px;
+}
+button{
+    cursor: pointer;
+}
+.container-1 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.avaliacao {
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+}
+
+.estrelas {
+    align-self: center;
+}
+
+.fa {
+    color: orange;
+}
+
+
+.titulo h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.titulo h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.preco{
+    margin: 30px 0;
+}
+
+.preco h3, h2, p, li{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+}
+
+.preco h2 {
+    font-size: 35px;
+}
+.saber-mais{
+    margin-top: 40px;
+}
+ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+li{
+    color: #989898;
+    margin: 5px 0;
+}
